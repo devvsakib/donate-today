@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #FF5959;
+    --plan1: #4F9DA6;
+    --plan2: #FF5959;
+    --plan3: #FFF4D6;
+    --footer: 'Lobster', cursive;
+}
+
+/* Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primary-btn {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Banner Section CSS Start */
+.banner {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.banner-description {
+    color: #fff;
+    margin: 1.3rem 0;
+}
+
+/* Banner Section CSS End */
