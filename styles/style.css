@@ -1,16 +1,18 @@
 :root {
     --primary-color: #FF5959;
-    --plan1: #4F9DA6;
     --plan2: #FF5959;
     --plan3: #FFF4D6;
-    --footer: 'Lobster', cursive;
 }
 
 /* Default CSS */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 ul,
@@ -49,6 +51,11 @@ button {
     cursor: pointer;
 }
 
+i {
+    font-size: 2rem;
+    color: #000;
+}
+
 /* Banner Section CSS Start */
 .banner {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../images/banner.jpg);
@@ -77,12 +84,15 @@ button {
     margin: 1.3rem 0;
 }
 
+.donate-section,
+.donate-plan,
+.blog-section {
+    margin: 6rem 0;
+}
+
 /* Banner Section CSS End */
 
 /* Donate Section CSS End */
-.donate-section {
-    margin: 6rem 0;
-}
 
 .donate-content {
     width: 60%;
@@ -134,6 +144,146 @@ button {
     margin: auto auto;
 }
 
-
-
 /* Donate Section CSS End */
+
+/* Plan Section CSS Start */
+
+.donate-plan-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.donate-plan-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-plan-card .title {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.donate-plan-card .description {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.plan-card {
+    padding: 2rem;
+    text-align: left;
+}
+
+.plan-card img {
+    margin-bottom: 10px;
+}
+
+.plan-card:first-child {
+    background: rgba(79, 157, 166, 0.3);
+}
+
+.plan-card:nth-child(2) {
+    margin: 0 1rem;
+    background: rgba(255, 89, 89, 0.3);
+}
+
+.plan-card:last-child {
+    background: var(--plan3);
+}
+
+/* Plan Section CSS End */
+
+/* Blog Section CSS Start */
+.blog-section {}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.blog-card .blog {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.blog-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-card-content {
+    flex-direction: column;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.blog-card-content .title {
+    font-size: 30px;
+}
+
+.blog-description {
+    font-size: 16px;
+    margin: 1.3rem 0;
+}
+
+.lastblog {
+    margin-left: 5rem;
+    margin-right: 0;
+}
+
+/* Blog Section CSS End */
+
+/* Newsletter Section CSS Start */
+.newsletter-content {
+    width: 60%;
+    margin: 4rem auto;
+    margin-bottom: 6rem;
+}
+
+.newsletterForm {
+    padding: 3rem;
+    background: #FFF4D6;
+}
+
+.newsletterForm input {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #AA9F9F;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: -3px;
+}
+
+.newsletterForm button {
+    border-radius: 0 5px 5px 0;
+    margin-left: -3px;
+}
+
+/* Newsletter Section CSS End */
+
+/* Footer Section CSS Start */
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+    background: #121527;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer Section CSS End */
