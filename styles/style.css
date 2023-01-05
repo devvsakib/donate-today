@@ -2,7 +2,6 @@
     --primary-color: #FF5959;
     --plan2: #FF5959;
     --plan3: #FFF4D6;
-    --footer: 'Lobster', cursive;
 }
 
 /* Default CSS */
@@ -230,3 +229,21 @@ i {
     margin-right: 0;
 }
 /* Blog Section CSS End */
+
+
+/* Footer Section CSS Start */
+footer{
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+    background:#121527;
+}
+footer h2{
+    font-family:  'Lobster', cursive;
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Footer Section CSS End */
