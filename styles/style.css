@@ -10,9 +10,11 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 ul,
 li {
     list-style: none;
@@ -194,56 +196,94 @@ i {
 /* Plan Section CSS End */
 
 /* Blog Section CSS Start */
-.blog-section{
+.blog-section {}
 
-}
-.blogs{
+.blogs {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2rem 0;
 }
-.blog-card .blog{
+
+.blog-card .blog {
     display: flex;
     align-items: center;
     margin: 2rem 0;
 }
-.blog-image img{
+
+.blog-image img {
     width: 100%;
     border-radius: 10px;
 }
-.blog-card-content{
+
+.blog-card-content {
     flex-direction: column;
     text-align: left;
     margin-right: 5rem;
 }
-.blog-card-content .title{
+
+.blog-card-content .title {
     font-size: 30px;
 }
-.blog-description{
+
+.blog-description {
     font-size: 16px;
     margin: 1.3rem 0;
 }
-.lastblog{
+
+.lastblog {
     margin-left: 5rem;
     margin-right: 0;
 }
+
 /* Blog Section CSS End */
 
+/* Newsletter Section CSS Start */
+.newsletter-content {
+    width: 60%;
+    margin: 4rem auto;
+    margin-bottom: 6rem;
+}
+
+.newsletterForm {
+    padding: 3rem;
+    background: #FFF4D6;
+}
+
+.newsletterForm input {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #AA9F9F;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: -3px;
+}
+
+.newsletterForm button {
+    border-radius: 0 5px 5px 0;
+    margin-left: -3px;
+}
+
+/* Newsletter Section CSS End */
 
 /* Footer Section CSS Start */
-footer{
+footer {
     padding: 2rem 0;
     text-align: center;
     color: white;
-    background:#121527;
+    background: #121527;
 }
-footer h2{
-    font-family:  'Lobster', cursive;
+
+footer h2 {
+    font-family: 'Lobster', cursive;
     margin-bottom: 10px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
+
 /* Footer Section CSS End */
