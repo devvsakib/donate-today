@@ -13,6 +13,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: o;
+}
+
 .primary-btn {
     padding: 10px 30px;
     color: #fff;
@@ -21,6 +28,25 @@
     border-radius: 5px;
     font-weight: 600;
     font-size: 1rem;
+}
+
+main {
+    margin: 0 5rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.description {
+    margin: 1.3rem 0;
+    color: #707070;
+    padding: 0 5rem;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* Banner Section CSS Start */
@@ -52,3 +78,62 @@
 }
 
 /* Banner Section CSS End */
+
+/* Donate Section CSS End */
+.donate-section {
+    margin: 6rem 0;
+}
+
+.donate-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.donate-content ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.donate-content ul li {
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #707070;
+}
+
+.donate-content ul li:nth-child(2) {
+    border: 2px solid #FF5959;
+    background: var(--plan3);
+}
+
+.custom-plan {
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+    margin: 0 auto;
+}
+
+.custom-plan input {
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.custom-plan button {
+    width: 200px;
+    margin: auto auto;
+}
+
+
+
+/* Donate Section CSS End */
