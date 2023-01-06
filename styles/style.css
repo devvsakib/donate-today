@@ -21,7 +21,23 @@ li {
     padding: 0;
     margin: o;
 }
+main {
+    margin: 0 5rem;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
 
+i {
+    font-size: 2rem;
+    color: #000;
+}
+
+
+.title {
+    font-size: 2rem;
+}
 .primary-btn {
     padding: 10px 30px;
     color: #fff;
@@ -32,28 +48,24 @@ li {
     font-size: 1rem;
 }
 
-main {
-    margin: 0 5rem;
-    text-align: center;
-}
-
-.title {
-    font-size: 2rem;
-}
-
 .description {
     margin: 1.3rem 0;
     color: #707070;
     padding: 0 5rem;
 }
-
-button {
-    cursor: pointer;
+.navigate a{
+    color: #FF5959;
+    font-weight: 600;
 }
-
-i {
-    font-size: 2rem;
-    color: #000;
+.navigate{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    filter: invert(1) sepia(1) saturate(1) hue-rotate(180deg);
+    padding: .3rem 1rem;
+    border-radius: 10px;
+    position: fixed;
+    bottom:20px;
+    right: 25px;
 }
 
 /* Banner Section CSS Start */
@@ -69,20 +81,66 @@ i {
     justify-content: center;
     text-align: center;
 }
-
+.banner2{
+    background:url(../images/Ellipse\ 257.png) no-repeat right;e
+    background-position: bottom right;
+    height: 100vh;
+}
 .banner-content {
     width: 50%;
 }
-
+.banner-img{
+    width: 100%;
+    max-height: 100%;
+}
+.banner-content2 {
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+.banner-content2 div{
+    width: 60%;
+}
+.banner-content2 .banner-title{
+    width: 60%;
+}
+.banner-content2 .banner-description{
+    width: 55%;
+}
 .banner-title {
     font-size: 3rem;
     color: #fff;
+}
+.banner-content2 .banner-title {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
 }
 
 .banner-description {
     color: #fff;
     margin: 1.3rem 0;
 }
+.banner-content2 .banner-description {
+    color: rgb(90, 89, 89);
+    margin: 1.3rem 0;
+}
+.banner2-btn{
+    color: #000;
+}
+.banner2-btn2{
+    border: none;
+    margin-left: 1rem;
+    background: transparent;
+}
+.banner2-btn i{
+    font-size: 1rem;
+    color: #707070;
+}
+
 
 .donate-section,
 .donate-plan,
